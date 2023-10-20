@@ -1,0 +1,83 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  padding-bottom: 0;
+}
+
+.img-div {
+  padding-bottom: 0!important;
+}
+
+#features {
+  display: flex;
+  justify-content: center;
+}
+
+#features-div {
+  padding-top: 100px!important;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  margin-left: 100px;
+  flex-wrap: nowrap;
+}
+
+.testimonial-content {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-img {
+  display: flex;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center!important;
+}
+
+#testimonial {
+  background-color: antiquewhite!important;
+}
+
+#testimonial p {
+  display: flex;
+  justify-content: center;
+}
+
+#testimonial > .testimonial-img > img {
+  border-radius: 50%;
+}
+
+#testimonial-grid {
+  display: flex;
+  height: 30px;
+  width: auto;
+  gap: 10;
+  justify-content: center;
+}
